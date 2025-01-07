@@ -1,2 +1,2 @@
-# DPSAU2-Net
- Enhanced U2-Net with Residual DPU-Blocks and Split-Attention for Medical Segmentation
+# Enhanced U2-Net with Residual Depthwise Separable and Split-Attention Blocks for Precise Medical Image Segmentation
+ 

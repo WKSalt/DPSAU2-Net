@@ -5,7 +5,7 @@
 # requirement
 - pytorch 1.10.0
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt ```
 
 # Introduction
 - put the training images and labels into "data/image" and "data/masks" respectively.

@@ -4,8 +4,9 @@
 - CVC-ClinicDB is publicly available at [https://www.kaggle.com/datasets/balraj98/cvcclinicdb](https://www.kaggle.com/datasets/balraj98/cvcclinicdb)
 ## requirement
 - pytorch 1.10.0
-bash
+```bash
 pip install -r requirements.txt
+```
 
 # Introduction
 - put the training images and labels into "data/image" and "data/masks" respectively.

@@ -27,7 +27,11 @@ pip install -r requirements.txt
 ```bash
 python data_split_csv.py --dataset your/data/path --size 0.9
 ```
-## Introduction
-- put the training images and labels into "data/image" and "data/masks" respectively.
-- Begin by utilizing `data_split_csv.py` to preprocess and partition the dataset.  
-- Subsequently, execute `train.py` to train the model on the prepared data.
+## Train
+```bash
+python train.py --dataset your/data/path --csvfile your/csv/path --loss dice --batch 16 --lr 0.001 --epoch 200
+```
+## Evaluation
+```bash
+python eval_binary.py --dataset your/data/path --csvfile your/csv/path --model save_models/epoch_last.pth --debug True
+```

@@ -37,3 +37,5 @@ python train.py --dataset your/data/path --csvfile your/csv/path --loss dice --b
 ```bash
 python eval_binary.py --dataset your/data/path --csvfile your/csv/path --model save_models/epoch_last.pth --debug True
 ```
+## References
+Our implementation is based on [ResNeSt](https://github.com/zhanghang1989/ResNeSt/tree/5fe47e93bd7e098d15bc278d8ab4812b82b49414) and [U2-Net](https://github.com/xuebinqin/U-2-Net). We would like to thank them.

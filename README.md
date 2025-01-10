@@ -3,7 +3,7 @@
 - 2018 Data Science Bowl is publicly available at [https://www.kaggle.com/competitions/data-science-bowl-2018/data](https://www.kaggle.com/competitions/data-science-bowl-2018/data)
 - CVC-ClinicDB is publicly available at [https://www.kaggle.com/datasets/balraj98/cvcclinicdb](https://www.kaggle.com/datasets/balraj98/cvcclinicdb)
 - To apply the model on a custom dataset, the data tree should be constructed as:
-``` bash
+```bash
 data/
 ├── images/
 │   ├── image_1.png

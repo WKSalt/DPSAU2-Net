@@ -1,4 +1,6 @@
 # Enhanced U2-Net with Residual Depthwise Separable and Split-Attention Blocks for Precise Medical Image Segmentation 
+## DPSAU2-Net Architecture
+
 ## Datasets
 - 2018 Data Science Bowl is publicly available at [https://www.kaggle.com/competitions/data-science-bowl-2018/data](https://www.kaggle.com/competitions/data-science-bowl-2018/data)
 - CVC-ClinicDB is publicly available at [https://www.kaggle.com/datasets/balraj98/cvcclinicdb](https://www.kaggle.com/datasets/balraj98/cvcclinicdb)

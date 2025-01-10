@@ -21,7 +21,7 @@ def pre_csv(data_path, frac):
                'category': ds_split
                }
     df = pd.DataFrame(ds_dict)
-    df.to_csv('src/test_train_data_data_isic2018_1_10%.csv', index=False)
+    df.to_csv('src/test_train_data.csv', index=False)
     print('Number of train sample: {}'.format(len(train_set)))
     print('Number of test sample: {}'.format(data_size - train_size))
 
@@ -30,7 +30,7 @@ def pre_csv(data_path, frac):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='data/', help='the path of dataset')
+    parser.add_argument('--dataset', type=str, default='data/images', help='the path of dataset')
     parser.add_argument('--size', type=float, default=0.9, help='the size of your train set')
     args = parser.parse_args()
     os.makedirs('src/', exist_ok=True)

@@ -4,18 +4,6 @@
 ## Datasets
 - 2018 Data Science Bowl is publicly available at [https://www.kaggle.com/competitions/data-science-bowl-2018/data](https://www.kaggle.com/competitions/data-science-bowl-2018/data)
 - CVC-ClinicDB is publicly available at [https://www.kaggle.com/datasets/balraj98/cvcclinicdb](https://www.kaggle.com/datasets/balraj98/cvcclinicdb)
-## Requirement
-- Python 3.6
-- Pytorch 1.10.0
-- CUDA 11.3
-```bash
-pip install -r requirements.txt
-```
-## CSV generation
-```bash
-python data_split_csv.py --dataset your/data/path --size 0.9
-```
-## Train
 - To apply the model on a custom dataset, the data tree should be constructed as:
 ```bash
 data/
@@ -30,7 +18,18 @@ data/
 │   ├── ...
 │   └── image_n.png
 ```
-Train the network
+## Requirement
+- Python 3.6
+- Pytorch 1.10.0
+- CUDA 11.3
+```bash
+pip install -r requirements.txt
+```
+## CSV generation
+```bash
+python data_split_csv.py --dataset your/data/path --size 0.9
+```
+## Train
 ```bash
 python train.py --dataset your/data/path --csvfile your/csv/path --loss dice --batch 16 --lr 0.001 --epoch 200
 ```

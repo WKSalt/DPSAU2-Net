@@ -28,7 +28,7 @@ class multi_classes(Dataset):
         return len(self.folders)
 
     def __getitem__(self, idx):
-        image_folder = os.path.join(self.path, str(self.folders[idx]), 'image/')
+        image_folder = os.path.join(self.path, str(self.folders[idx]), 'images/')
         mask_folder = os.path.join(self.path, str(self.folders[idx]), 'masks/')
         image_path = os.path.join(image_folder, os.listdir(image_folder)[0])
 
@@ -76,7 +76,7 @@ class binary_class(Dataset):
         return len(self.folders)
 
     def __getitem__(self, idx):
-        image_path = os.path.join(self.path, 'image/', self.folders[idx])
+        image_path = os.path.join(self.path, 'images/', self.folders[idx])
         mask_path = os.path.join(self.path, 'masks/', self.folders[idx])
 
         img = io.imread(image_path)[:, :, :3].astype('float32')
@@ -99,7 +99,7 @@ class binary_class2(Dataset):
         return len(self.folders)
 
     def __getitem__(self, idx):
-        image_path = os.path.join(self.path, self.folders[idx], 'image/', self.folders[idx]) #feature
+        image_path = os.path.join(self.path, self.folders[idx], 'images/', self.folders[idx]) #feature
         mask_path = os.path.join(self.path, self.folders[idx], 'masks/', self.folders[idx])  #label
         image_id = self.folders[idx]
         img = io.imread(f'{image_path}.png')[:, :, :3].astype('float32')

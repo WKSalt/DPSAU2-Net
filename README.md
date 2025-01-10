@@ -23,6 +23,10 @@ data/
 ```bash
 pip install -r requirements.txt
 ```
+## CSV generation
+```bash
+python data_split_csv.py --dataset your/data/path --size 0.9
+```
 ## Introduction
 - put the training images and labels into "data/image" and "data/masks" respectively.
 - Begin by utilizing `data_split_csv.py` to preprocess and partition the dataset.  

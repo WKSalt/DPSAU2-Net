@@ -16,7 +16,7 @@ data/
 │   ├── ...
 │   └── image_n.png
 ```
-## requirement
+## Requirement
 - Python 3.6
 - Pytorch 1.10.0
 - CUDA 11.3

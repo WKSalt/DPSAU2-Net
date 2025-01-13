@@ -2,6 +2,7 @@
 ## Network structure of DPSAU2-Net
 ![image](https://github.com/user-attachments/assets/712bb1c8-3703-4e06-8dda-11c050d8f0eb)
 This study introduces a novel approach by integrating residual depthwise separable convolutions into the RSU modules of U2-Net, while also incorporating SA blocks into both the encoder and decoder layers. The RSDPU module effectively aggregates long-range spatial information while preserving critical features from lower-level semantic layers. Meanwhile, the SA block adapts to multi-scale features and enhances feature representation with relatively low computational overhead. In segmentation tasks, features from different regions carry varying levels of importance for semantic categories, and the SA block excels at modeling these relationships.
+
 The specific implementation details of the code can be found in the `model` folder, primarily in the `DPSAU2Net.py` and `splat.py` files, which correspond to the main structure of the model and the feature processing modules, respectively.
 ## Datasets
 - 2018 Data Science Bowl is publicly available at [https://www.kaggle.com/competitions/data-science-bowl-2018/data](https://www.kaggle.com/competitions/data-science-bowl-2018/data)

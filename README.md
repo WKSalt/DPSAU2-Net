@@ -1,5 +1,5 @@
 # Enhanced U2-Net with Residual Depthwise Separable and Split-Attention Blocks for Precise Medical Image Segmentation 
-## Architecture
+## Network structure of DPSAU2-Net
 ![image](https://github.com/user-attachments/assets/712bb1c8-3703-4e06-8dda-11c050d8f0eb)
 ## Datasets
 - 2018 Data Science Bowl is publicly available at [https://www.kaggle.com/competitions/data-science-bowl-2018/data](https://www.kaggle.com/competitions/data-science-bowl-2018/data)

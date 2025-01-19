@@ -5,8 +5,6 @@ This study introduces a novel approach by integrating residual depthwise separab
 
 The specific implementation details of the code can be found in the `model` folder, primarily in the `DPSAU2Net.py` and `splat.py` files, which correspond to the main structure of the model and the feature processing modules, respectively.
 ## Datasets
-- 2018 Data Science Bowl is publicly available at [https://www.kaggle.com/competitions/data-science-bowl-2018/data](https://www.kaggle.com/competitions/data-science-bowl-2018/data)
-- CVC-ClinicDB is publicly available at [https://www.kaggle.com/datasets/balraj98/cvcclinicdb](https://www.kaggle.com/datasets/balraj98/cvcclinicdb)
 - To apply the model on a custom dataset, the data tree should be constructed as:
 ```bash
 data/

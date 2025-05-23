@@ -43,4 +43,4 @@ Our implementation is based on [ResNeSt](https://github.com/zhanghang1989/ResNeS
 ## Cite
 **Title**:Enhanced U2-Net with Residual Depthwise Separable and Split-Attention Blocks for Precise Medical Image Segmentation
 
-**Journal**:[The Visual Computer](https://link.springer.com/journal/371?utm_medium=display&utm_source=letpub&utm_content=text_link&utm_term=null&utm_campaign=MPSR_00371_AWA1_CN_CNPL_letpb_mp)
+**Journal**:
